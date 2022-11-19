@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+
+  <div class="wrapper">
+    
+    <img src="images/logo.svg" alt="logo">
+
+    <main>
+      <div class="calc">
+        <p> Bill <span id="err1"></span> </p>
+        <input id="bill" type="number" placeholder="0">
+        <p> Select Tip %</p>
+
+        <div class="tip">
+          <button class="tipbtn">5%</button>
+          <button class="tipbtn">10%</button>
+          <button class="tipbtn">25%</button>
+          <button class="tipbtn">50%</button>
+          <button class="tipbtn">15%</button>
+          <input type="number" id="custom" placeholder="Custom"></input>
+        </div>
+
+        <p> Number of People <span id="err2" ></span> </p>
+        <input id="ppl" type="number" placeholder="0">
+      </div>
+
+      <section class="results">
+        <div class="txt">
+          <p> 
+            Tip Amount
+            <small> /person</small>
+          </p>
+          <p class="price" id="just-tip">$0.00</p>
+          <p> 
+            Total
+          <small> /person</small>
+          </p>
+          <p class="price" id="total">$0.00</p>
+        </div>
+        <button id="reset"> Reset </button>
+      </section>
+    </main>
+
+  </div>
+
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Denito37</a>.
+      </div>
+    </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
