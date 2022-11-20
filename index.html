@@ -16,20 +16,20 @@
     <main>
       <div class="calc">
         <p> Bill <span id="err1"></span> </p>
-        <input id="bill" type="number" placeholder="0">
+        <input id="bill" type="number" min="0" placeholder="0">
         <p> Select Tip %</p>
 
         <div class="tip">
-          <button class="tipbtn">5%</button>
-          <button class="tipbtn">10%</button>
-          <button class="tipbtn">25%</button>
-          <button class="tipbtn">50%</button>
-          <button class="tipbtn">15%</button>
-          <input type="number" id="custom" placeholder="Custom"></input>
+          <button class="tipbtn" id="btn5">5%</button>
+          <button class="tipbtn" id="btn10">10%</button>
+          <button class="tipbtn" id="btn15">15%</button>
+          <button class="tipbtn" id="btn25">25%</button>
+          <button class="tipbtn" id="btn50">50%</button>
+          <input type="number" id="custom" placeholder="Custom" maxlength="2"></input>
         </div>
 
         <p> Number of People <span id="err2" ></span> </p>
-        <input id="ppl" type="number" placeholder="0">
+        <input id="ppl" type="number" min="0" placeholder="0">
       </div>
 
       <section class="results">

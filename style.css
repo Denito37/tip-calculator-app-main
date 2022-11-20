@@ -8,7 +8,7 @@
     --lg-cyan:hsl(185, 41%, 84%);
     --vlg-cyan:hsl(189, 41%, 97%);
 }
-/*GENERAL*/
+/* *GENERAL */
 body{
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ p span{
     text-align: right;
     float: right;
 }
-/*MAIN*/
+/* *MAIN */
 main{
     background-color: white;
     color: var(--ntrl-gCyan);
@@ -93,7 +93,7 @@ button:hover{
     background-color: var(--lg-cyan);
     color: var(--ntrl-dCyan);
 }
-/*SECTION*/
+/* *SECTION */
 section{
     background-color: var(--ntrl-dCyan);
     color: white;
@@ -122,11 +122,15 @@ section button{
     width: 100%;
     margin-top: 5rem;
 }
-/*FOOTER*/
+/* *FOOTER */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-/* mobile */
+.changeClr{
+    background-color: var(--prm-cyan);
+    color: var(--ntrl-dCyan);
+}
+/* *mobile */
 @media only screen and (max-width:769px){
     main{
         display: flex;
