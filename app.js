@@ -20,24 +20,24 @@ bill.addEventListener('change', totalCalc);
 ppl.addEventListener('change', totalCalc);
 reset.addEventListener('click', resetValues);
 btn.addEventListener('click', () =>{
-   btn.classList.toggle('changeClr')
    tipValue = 0.05;
+   totalCalc();
 })
 btn2.addEventListener('click',() =>{
-   btn2.classList.toggle('changeClr')
    tipValue = 0.10;
+   totalCalc();
 })
 btn3.addEventListener('click',() =>{
-   btn3.classList.toggle('changeClr')
    tipValue = 0.15;
+   totalCalc();
 })
 btn4.addEventListener('click',() =>{
-   btn4.classList.toggle('changeClr')
    tipValue = 0.25;
+   totalCalc();
 })
 btn5.addEventListener('click',() =>{
-   btn5.classList.toggle('changeClr')
    tipValue = 0.50;
+   totalCalc();
 })
 //Functions
 function isZero(){
